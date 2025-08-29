@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1,maximum-scale=8.0, user-scalable=yes">
+<title>字书,史书,算书,医书 - 大玄古籍书库</title>
+<meta name="keywords" content="史书,算书,字书,字典,尔雅,历史,算术,医书,医学,算法,电子档, 全文, 电子全文, 翻译, 英文">
+<meta name="description" content="史书电子全文，算书电子全文，字书电子全文，医学电子全文，全文检索、相关于医学的讨论及参考资料。有简体字版、繁体字版、英文版本。在线阅读以及TXT格式文件下载"/>
+<link rel="icon" href="/favicon.ico" type="image/x-icon">
+<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+<link rel="stylesheet" type="text/css" charset="utf-8" href="/css/font.css">
+<link rel="stylesheet" href="/css/search_book.css">
+<style>
+a{display:block}
+a:link {text-decoration:none;color:blue;}
+a:hover {text-decoration:underline;color:red;}
+a:active{text-decoration:none;color:yellow;}
+a:visited {text-decoration:none;color:green;}
+</style>
+</head>
+<body>
+<div class="header"> <a class="btn-left" href="/">首页</a>
+  <input id="keyword" type="text" placeholder="请输入搜索关键词">
+  <a href="search.html" target="_blank"><p id="search" class="btn-right">全搜索</p></a>
+</div>
+<div id="booklist" class="bookshelf">
+<a href="/text/zsss/1.html">《九章算術》 —佚名</a>
+<a href="/text/zsss/2.html">《傷寒論》 —佚名</a>
+<a href="/text/zsss/3.html">《列女傳》 —佚名</a>
+<a href="/text/zsss/4.html">《前漢紀》 —佚名</a>
+<a href="/text/zsss/5.html">《古三墳》 —佚名</a>
+<a href="/text/zsss/6.html">《史記》 —佚名</a>
+<a href="/text/zsss/7.html">《吳越春秋》 —佚名</a>
+<a href="/text/zsss/8.html">《周髀算經》 —佚名</a>
+<a href="/text/zsss/9.html">《國語》 —佚名</a>
+<a href="/text/zsss/10.html">《字書-急就篇》 —佚名</a>
+<a href="/text/zsss/11.html">《孫子算經》 —佚名</a>
+<a href="/text/zsss/12.html">《後漢書》 —佚名</a>
+<a href="/text/zsss/13.html">《戰國策》 —佚名</a>
+<a href="/text/zsss/14.html">《方言》 —佚名</a>
+<a href="/text/zsss/15.html">《春秋公羊傳》 —佚名</a>
+<a href="/text/zsss/16.html">《春秋左傳》 —佚名</a>
+<a href="/text/zsss/17.html">《春秋穀梁傳》 —佚名</a>
+<a href="/text/zsss/18.html">《晏子春秋》 —佚名</a>
+<a href="/text/zsss/19.html">《東觀漢記》 —佚名</a>
+<a href="/text/zsss/20.html">《海島算經》 —佚名</a>
+<a href="/text/zsss/21.html">《漢書》 —佚名</a>
+<a href="/text/zsss/22.html">《燕丹子》 —佚名</a>
+<a href="/text/zsss/23.html">《爾雅》 —佚名</a>
+<a href="/text/zsss/24.html">《穆天子傳》 —佚名</a>
+<a href="/text/zsss/25.html">《竹書紀年》 —佚名</a>
+<a href="/text/zsss/26.html">《西京雜記》 —佚名</a>
+<a href="/text/zsss/27.html">《說文解字》 —佚名</a>
+<a href="/text/zsss/28.html">《越絕書》 —佚名</a>
+<a href="/text/zsss/29.html">《逸周書》 —佚名</a>
+<a href="/text/zsss/30.html">《釋名》 —佚名</a>
+<a href="/text/zsss/31.html">《金匱要略》 —佚名</a>
+<a href="/text/zsss/32.html">《難經》 —佚名</a>
+<a href="/text/zsss/33.html">《鹽鐵論》 —佚名</a>
+<a href="/text/zsss/34.html">《黃帝內經》 —佚名</a>
+</div>
+<script type="text/javascript" src="/js/global.js"></script>
+<script type="text/javascript" charset="utf-8">
+	ByCLS(".btn-right").onclick = function (e) {
+		e.stopPropagation();
+		e.preventDefault();
+		re_url(3, "../search.html?key=" + ByID("keyword").value);
+	};	
+</script>
+</body>
+</html>
